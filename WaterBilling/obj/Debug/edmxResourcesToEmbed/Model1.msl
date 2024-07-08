@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WaterBillingDbModelStoreContainer" CdmEntityContainer="WaterBillingDbEntities">
+    <EntitySetMapping Name="BillTbls">
+      <EntityTypeMapping TypeName="WaterBillingDbModel.BillTbl">
+        <MappingFragment StoreEntitySet="BillTbl">
+          <ScalarProperty Name="BIll_Number" ColumnName="BIll_Number" />
+          <ScalarProperty Name="Cid" ColumnName="Cid" />
+          <ScalarProperty Name="Agent" ColumnName="Agent" />
+          <ScalarProperty Name="BillPeriod" ColumnName="BillPeriod" />
+          <ScalarProperty Name="Consumption" ColumnName="Consumption" />
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+          <ScalarProperty Name="Tax" ColumnName="Tax" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
