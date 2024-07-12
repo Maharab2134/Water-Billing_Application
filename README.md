@@ -12,7 +12,7 @@ WaterBilling is a desktop application for managing water bills. It allows users 
 
 ## Prerequisites
 
-- .NET Framework
+- .NET Framework (C#)
 - SQL Server
 
 ## Database Setup
@@ -21,6 +21,8 @@ WaterBilling is a desktop application for managing water bills. It allows users 
 2. Create the following table:
 
 ```sql
+## Example Database
+
 CREATE TABLE BillTbl (
     BNum INT PRIMARY KEY IDENTITY(1,1),
     Cid INT,
@@ -49,7 +51,8 @@ SqlConnection Con = new SqlConnection(@"Data Source=YOUR_SERVER_NAME;Initial Cat
 
     Build and run the application.
 
-Usage
+Usage my web application or project
+
 Add Bill
 
     Enter the consumer ID, agent, bill period, consumption, and rate.
@@ -72,6 +75,8 @@ Pay Bill
     Select a bill from the DataGridView.
     Enter the payment amount in the provided textbox.
     Click on the "Pay Bill" button to update the bill's total in the database.
+
+###
 
 Code Overview
 Billing Form
@@ -98,8 +103,3 @@ Acknowledgments
 
     Icons by FontAwesome
     UI components by Guna.UI2
-
-javascript
-
-
-Replace placeholders like `YOUR_SERVER_NAME` with actual values as per your setup. This `README.md` provides a comprehensive overview of your WaterBilling application, including setup, usage, and code overview.
