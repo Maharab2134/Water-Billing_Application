@@ -1,4 +1,4 @@
-# WaterBilling Application
+# Water Billing Management System Application
 
 WaterBilling is a desktop application for managing water bills. It allows users to add, edit, delete, and pay bills. The application uses a SQL Server database to store billing information.
 
@@ -21,7 +21,7 @@ WaterBilling is a desktop application for managing water bills. It allows users 
 2. Create the following table:
 
 ```sql
-## Example Database
+## Database
 
 CREATE TABLE BillTbl (
     BNum INT PRIMARY KEY IDENTITY(1,1),
@@ -33,9 +33,8 @@ CREATE TABLE BillTbl (
     Tax FLOAT,
     Total INT
 );
-##
 
-Installation
+## Installation
 
     Clone the repository:
 
