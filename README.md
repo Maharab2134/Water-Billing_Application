@@ -33,6 +33,7 @@ CREATE TABLE BillTbl (
     Tax FLOAT,
     Total INT
 );
+##
 
 Installation
 
